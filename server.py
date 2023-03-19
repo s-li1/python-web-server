@@ -1,7 +1,7 @@
 #import socket module
 from socket import *
 server_port = 6789
-server_ip = '127.0.0.1'
+server_ip = '0.0.0.0'
 #Prepare a server socket
 serverSocket = socket(AF_INET, SOCK_STREAM)
 serverSocket.bind((server_ip, server_port))
